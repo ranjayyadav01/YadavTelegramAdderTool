@@ -24,8 +24,8 @@ def check_num(phone):
             return phone
 
 
-DEFAULT_API_ID = 25194789
-DEFAULT_API_HASH = "e59afe25c17585635ec031c889eb5b34"
+DEFAULT_API_ID = 29049593
+DEFAULT_API_HASH = "60123a8a7984120fee1607700a713671"
 DEFAULT = "UserStatus.RECENTLY"
 
 OPTIONS = (
@@ -38,13 +38,13 @@ OPTIONS = (
 config_path = Path("config.json")
 delay = int(input(f" {lg}Enter Delay Timing For Per Member Adding : {w}"))
 group_source = input(
-    "Enter The Group ID Of The Group From Which The Members Have To Be Scraped : "
+    "1391787432"
 )
 group_target = input(
-    "Enter The Group ID Of The Group In Which The Member Is To Be Added : "
+    "2365188179"
 )
 group_source_username = input(
-    "Enter The Username Of The Group From Which The Members Have To Be Scraped : "
+    "@Rajasthan_GK_Zone"
 )
 if "+" in group_source_username:
     pass
@@ -53,7 +53,7 @@ else:
         "(@)|(https://t.me/)|(http://t.me/)", "", group_source_username
     )
 group_target_username = input(
-    "Enter The Username Of The Group In Which The Member Is To Be Added : "
+    "@best_friendss_chatting"
 )
 if "+" in group_target_username:
     pass
